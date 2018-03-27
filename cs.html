@@ -1,0 +1,71 @@
+<html>
+<head>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+.topnav {
+    background-color: brown;
+	opacity: 0.5;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.a{
+background-color: brown;
+opacity: 0.8;
+}
+body{
+background-image:url("loginBackgrnd.jpg")  ;
+ background-position: right top;
+ background-attachment: fixed;
+}
+.row {
+    padding: 16px;
+}
+
+</style>
+<title>Contact Us</title>
+</head>
+<body>
+<div class= "a">
+<font face="Bradley Hand ITC" size ="10" color="white" ><b> TouristsAdda : Your Tourist Guide </font></b>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="Home.html">Home</a>
+  <a href="reachus.html">Reach Us</a>
+  <a href="cs.html">Contact</a>
+  <a href="abt.html">About</a>
+</div>
+<form>
+	<div class="row">
+		<h3>Your name:</h3><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<h3>Your email:</h3><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<h3>Your message:</h3><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
+</body>
+</html>
